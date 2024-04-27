@@ -1,6 +1,6 @@
 let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
-let audio = new Audio('./audio/Coin Mario.wav');
+
 
 let string = "";
 let arr = Array.from(buttons);
@@ -24,7 +24,8 @@ arr.forEach(button => {
             input.value = string;
         }
 
+        document.querySelector('audio').play();
 
-        audio.play();
+
     })
 })
