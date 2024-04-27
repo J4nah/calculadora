@@ -25,7 +25,5 @@ arr.forEach(button => {
         }
 
         document.querySelector('audio').play();
-
-
     })
 })
